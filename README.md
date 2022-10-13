@@ -1,9 +1,4 @@
-# IMPORTANT: Bug Fixes
-
-## `navigator.getUserMedia`
-
-`navigator.getUserMedia` is now deprecated and is replaced by `navigator.mediaDevices.getUserMedia`. To fix this bug replace all versions of `navigator.getUserMedia` with `navigator.mediaDevices.getUserMedia`
-
-## Low-end Devices Bug
-
-The video eventListener for `play` fires up too early on low-end machines, before the video is fully loaded, which causes errors to pop up from the Face API and terminates the script (tested on Debian [Firefox] and Windows [Chrome, Firefox]). Replaced by `playing` event, which fires up when the media has enough data to start playing.
+简单介绍了部署这个本地项目
+代码部分视频讲解见：https://www.bilibili.com/video/BV1fe4y1J7mr/
+up公众号见：中级错题家
+希望看到的小伙伴一键三连哦！
